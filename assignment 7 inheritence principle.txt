@@ -1,0 +1,12 @@
+package com.Day7;
+
+public class InheritancePrincipal extends InheritanceEmployee {
+
+    public void announce(){
+        System.out.println("Tomorrow is holiday");
+    }
+
+    public void inspectClass(){
+        System.out.println("I am going to visit class X");
+    }
+}

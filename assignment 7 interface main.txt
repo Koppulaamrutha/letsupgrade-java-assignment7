@@ -1,0 +1,23 @@
+package com.Day7;
+
+public class InterfaceMain {
+
+}
+/*
+  interface Demo{
+      prop1,prop4;
+      method();
+  }
+  class Demo2 implements Demo{
+      method(){ }
+   }
+*/
+
+
+/*
+    >> In INTERFACE all the property inside an interface are by default final(Constant)
+    >> Every method that we create inside INTERFACE should always be an abstract method
+    >> Abstract method is doesn't have definition
+    >> Interfaces forces to override the method
+    >> Interfaces basically gave us naming convection of the program
+*/

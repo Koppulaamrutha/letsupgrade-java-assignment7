@@ -1,0 +1,38 @@
+package com.Day7;
+
+public class InheritanceMain {
+
+    public static void main(String[] args) {
+
+        InheritanceTeacher t = new InheritanceTeacher();
+        t.getDetails();
+        t.displayDetails();
+        t.markAttendance();
+        t.testPaper();
+        t.takeLeave();
+
+        System.out.println(" ");
+        System.out.println("Principal's Notice: ");
+        InheritancePrincipal p = new InheritancePrincipal();
+        p.announce();
+        p.inspectClass();
+    }
+}
+
+/*
+    >> The process of extending the features of one class by
+        another other class is basically INHERITANCE
+    >> Private things are never Inherited.
+    >> PROTECTED(Access Modifier) can used by current class(Parent Class) and Child class
+    >> Multiple Inheritance of classes is not allowed in Java
+    >> To achieve Multiple Inheritance by only using INTERFACES
+    >>> Function Overloading is achieving by compile time polymorphism
+    >>> Function Overriding is achieving by run time polymorphism
+    >>> Compile Time Polymorphism: Whenever an object is bound with their functionality
+        at the compile-time, this is known as the compile-time polymorphism.
+        At compile-time, java knows which method to call by checking the method
+        signatures. So this is called compile-time polymorphism or static or early binding.
+    >>> Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to
+        an overridden method is resolved at runtime rather than compile-time.
+        In this process, an overridden method is called through the reference variable of a superclass.
+*/

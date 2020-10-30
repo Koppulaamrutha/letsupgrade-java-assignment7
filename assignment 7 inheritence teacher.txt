@@ -1,0 +1,23 @@
+package com.Day7;
+
+public class InheritanceTeacher extends InheritanceEmployee {
+
+    String sub1,sub2,sub3;
+
+    public void markAttendance(){
+        System.out.println("Marked the attendance");
+    }
+
+    public void testPaper(){
+        System.out.println("Surprise test is going tomorrow ");
+    }
+
+    public void takeLeave(){        // Function Overriding
+        System.out.println("You have leave of 3 days");
+    }
+}
+
+/* >> In FUNCTION OVERRIDING the signature of function is totally same,
+    no different parameter, it is totally same.
+   >>  FUNCTION OVERRIDING are done in different class.
+*/
